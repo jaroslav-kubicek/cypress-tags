@@ -1,0 +1,16 @@
+{
+  "name": "@kbjz/cypress-tags",
+  "version": "0.0.1",
+  "description": "Run Cypress.io tests by tags",
+  "main": "lib/index.js",
+  "types": "lib",
+  "license": "MIT",
+  "dependencies": {
+    "cucumber-tag-expressions": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "cypress": "^6.5.0",
+    "typescript": "^4.2.2"
+  }
+}

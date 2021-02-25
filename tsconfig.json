@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "lib",
+    "rootDir": "src",
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "strict": true,
+    "types": ["cypress", "@types/node"]
+  }
+}
