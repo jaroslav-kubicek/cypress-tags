@@ -8,6 +8,13 @@
   "scripts": {
     "lint": "eslint . --report-unused-disable-directives"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaroslav-kubicek/cypress-tags.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jaroslav-kubicek/cypress-tags/issues"
+  },
   "dependencies": {
     "cucumber-tag-expressions": "^2.0.3"
   },
