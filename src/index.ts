@@ -1,8 +1,9 @@
 import parse from "cucumber-tag-expressions";
 
-type DefineSuite = (description: string, tags: string[], testFn: () => void) => void
+type DefineSuite = (description: string, tags: string[], testFn: () => void) => void;
 
 declare global {
+  // eslint-disable-next-line no-var
   var defineSuite: DefineSuite;
 }
 
